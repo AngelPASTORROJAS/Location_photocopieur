@@ -9,7 +9,11 @@
 
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Entites\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

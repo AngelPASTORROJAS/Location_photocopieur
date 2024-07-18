@@ -1,2 +1,5 @@
-﻿// Ce projet est en .NET 6.0 LTS
+﻿using Location_photocopieur.Services;
 
+//new Menu();
+ClientService clientService = new ClientService();
+clientService.DropTable();
